@@ -1,20 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'app_colors.dart';
 
-abstract class TextStyles {
-  static const TextStyle fontBlueBold32 = TextStyle(
+abstract class AppTextStyles {
+  static   TextStyle fontBlueBold25 = TextStyle(
     fontWeight: FontWeight.bold,
     color: AppColors.blueColor,
-    fontSize: 32,
+    fontSize: 24.sp,
   );
-  static const TextStyle fontGreyRegular10 = TextStyle(
+  static   TextStyle fontGreyRegular10 = TextStyle(
     fontWeight: FontWeight.w400,
-    fontSize: 10,
+    color: Color(0xff757575),
+    fontSize: 8.sp,
   );
 
-  static const TextStyle fontWhiteSemiBold16 = TextStyle(
+  static   TextStyle fontWhiteSemiBold16 = TextStyle(
     fontWeight: FontWeight.w600,
-    fontSize: 16,
+    color: Colors.white,
+    fontSize: 16.sp,
   );
 }
