@@ -27,7 +27,7 @@ class DocDocAndLogoSection extends StatelessWidget {
           ),
           Text(
             AppStrings.docDoc,
-            style: AppTextStyles.fontBlueBold25
+            style: AppTextStyles.font24BlueBold
                 .copyWith(color: Colors.black,fontSize: 22.sp),
           )
         ],

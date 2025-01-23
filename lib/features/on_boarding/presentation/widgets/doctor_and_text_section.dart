@@ -40,9 +40,8 @@ class DoctorAndTextSection extends StatelessWidget {
           left: MediaQuery.sizeOf(context).width * 0.08,
           child: Column(
             children: [
-              Text(AppStrings.bestDoctor, style: AppTextStyles.fontBlueBold25),
-              Text(AppStrings.appointmentApp,
-                  style: AppTextStyles.fontBlueBold25),
+              Text(AppStrings.bestDoctor, style: AppTextStyles.font24BlueBold),
+              Text(AppStrings.appointmentApp, style: AppTextStyles.font24BlueBold),
             ],
           ),
         )
