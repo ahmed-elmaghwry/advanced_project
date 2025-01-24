@@ -38,10 +38,9 @@ dependencies:
   flutter_bloc: ^9.0.0
   freezed_annotation: ^2.4.4
   freezed: ^2.5.8
-  json_serializable: ^6.9.3
   json_annotation: ^4.9.0
   dio: ^5.7.0
-  retrofit_generator: ^9.1.7
+
   retrofit: ^4.4.2
   pretty_dio_logger: ^1.4.0
   easy_localization: ^3.0.0
@@ -50,10 +49,14 @@ dependencies:
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.0.17
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  json_serializable: ^6.9.3
+  retrofit_generator: ^9.1.7
+  build_runner: ^2.4.14
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
